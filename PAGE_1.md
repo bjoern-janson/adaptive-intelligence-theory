@@ -1,5 +1,7 @@
 ADAPTIVE INTELLIGENCE THEORY (AIT)
 
+PAGE 1/2 — CONCEPT MAP
+
 Core Question:
 
 How can a system expand its ability to influence the future while preserving the conditions required for continued improvement?
