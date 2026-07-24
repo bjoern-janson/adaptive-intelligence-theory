@@ -1,6 +1,5 @@
 ADAPTIVE INTELLIGENCE THEORY (AIT)
 
-PAGE 2/2 — CONCEPT MAP
 
 All concepts in AIT describe different aspects of one underlying process:
 
