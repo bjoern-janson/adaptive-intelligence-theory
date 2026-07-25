@@ -1,172 +1,157 @@
-ADAPTIVE INTELLIGENCE THEORY
+# ADAPTIVE INTELLIGENCE THEORY (AIT)
 
-THE SELF-IMPROVING INTELLIGENCE LOOP
+## The Self-Improving Intelligence Loop
 
-
-                         REALITY
-                            │
-                            ▼
-
-                  ┌─────────────────┐
-                  │  OBSERVATION    │
-                  │                 │
-                  │  Data / Signals │
-                  └────────┬────────┘
-                           │
-                           ▼
-
-                  ┌─────────────────┐
-                  │ REPRESENTATION  │
-                  │                 │
-                  │ "What is true?" │
-                  └────────┬────────┘
-                           │
-                           ▼
-
-                  ┌─────────────────┐
-                  │  COMPRESSION    │
-                  │                 │
-                  │ Find invariants │
-                  └────────┬────────┘
-                           │
-                           ▼
-
-                  ┌─────────────────┐
-                  │ SEARCH / MODEL  │
-                  │                 │
-                  │ Explore futures │
-                  └────────┬────────┘
-                           │
-                           ▼
-
-                  ┌─────────────────┐
-                  │     ACTION      │
-                  │                 │
-                  │ Change reality  │
-                  └────────┬────────┘
-                           │
-                           ▼
-
+```text
+                          REALITY
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │     OBSERVATION     │
+                  │                     │
+                  │   Data / Signals    │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │   REPRESENTATION    │
+                  │                     │
+                  │   "What is true?"   │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │    COMPRESSION      │
+                  │                     │
+                  │  Discover invariants│
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │   SEARCH / MODEL    │
+                  │                     │
+                  │  Explore futures    │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │       ACTION        │
+                  │                     │
+                  │   Change reality    │
+                  └──────────┬──────────┘
+                             │
+                             ▼
                          REALITY'
-                           │
+                             │
+                             ▼
+                         FEEDBACK
+                             │
+                             └────────────────────┐
+                                                  │
+                                                  ▼
+                                        UPDATED REPRESENTATION
+```
+
+---
+
+## The Alignment Spine
+
+```text
+                   CAPABILITY EXPANSION
                            │
                            ▼
-                    FEEDBACK LOOP
+                    Reachable Futures (Ω)
                            │
-                           └───────────────┐
-                                           │
-                                           ▼
+              ┌────────────┴────────────┐
+              ▼                         ▼
 
-                              UPDATED REPRESENTATION
+       Beneficial Futures        Harmful Futures
 
+              ▲                         ▲
+              └────────────┬────────────┘
+                           │
+                           ▼
 
+                 CORRECTION CAPACITY
 
-==================================================
+                   • Reality feedback
+                   • Interpretability
+                   • Evaluation
+                   • Human values
+                   • Self-correction
+```
 
+**Principle**
 
-               THE ALIGNMENT SPINE
+Capability should expand only as quickly as correction can keep pace.
 
+---
 
-          CAPABILITY EXPANSION
-                  │
-                  ▼
-          ┌────────────────┐
-          │ Possibility Ω  │
-          └────────────────┘
-                  │
-                  │
-        ┌─────────┴─────────┐
-        ▼                   ▼
+## The Possibility Space
 
-   GOOD FUTURES        BAD FUTURES
+```text
+Before capability growth
 
-        ▲                   ▲
-        │                   │
-        └─────────┬─────────┘
-
-                  │
-
-        CORRECTION CAPACITY
-
-        ↑
-        │
-        │
-  Reality feedback
-  Interpretability
-  Evaluation
-  Human values
-  Self-correction
+Worst                                        Best
+  │                                            │
+  ▼                                            ▼
+████████████████████████████████████████████████
 
 
-==================================================
+After capability growth
 
+Worst                                                      Best
+  │                                                          │
+  ▼                                                          ▼
+██████████████████████████████████████████████████████████████
+```
 
-              THE POSSIBILITY SPACE
+Capability expands the entire space of reachable futures.
 
+The objective is **not** simply to make the space larger.
 
-Before capability growth:
+The objective is to ensure
 
+$$
+\Delta\Omega_{\text{beneficial}}
+>
+\Delta\Omega_{\text{harmful}}.
+$$
 
-        WORST              BEST
-          │                 │
-          ▼                 ▼
-          ███████████████████
+---
 
+## The AIT Stack
 
-After capability growth:
+```text
+                    ┌─────────────────────┐
+                    │       VALUES        │
+                    │     Alignment       │
+                    └─────────┬───────────┘
+                              │
+                    ┌─────────▼───────────┐
+                    │      FEEDBACK       │
+                    │     Correction      │
+                    └─────────┬───────────┘
+                              │
+                    ┌─────────▼───────────┐
+                    │      CAUSALITY      │
+                    │      Influence      │
+                    └─────────┬───────────┘
+                              │
+                    ┌─────────▼───────────┐
+                    │    INTELLIGENCE     │
+                    │ Search & Planning   │
+                    └─────────┬───────────┘
+                              │
+                    ┌─────────▼───────────┐
+                    │   REPRESENTATION    │
+                    │   Compression &     │
+                    │     Abstraction     │
+                    └─────────────────────┘
+```
 
+---
 
-        WORST                         BEST
-          │                            │
-          ▼                            ▼
-          ████████████████████████████████
+## One-Sentence Summary
 
-
-The problem:
-
-Capability expands the entire space.
-
-
-The goal:
-
-Increase the right side faster than the left.
-
-
-==================================================
-
-
-              THE AIT STACK
-
-
-                 ┌─────────────┐
-                 │  VALUES     │
-                 │ Alignment   │
-                 └──────┬──────┘
-                        │
-                 ┌──────▼──────┐
-                 │  FEEDBACK   │
-                 │ Correction  │
-                 └──────┬──────┘
-                        │
-                 ┌──────▼──────┐
-                 │  CAUSALITY  │
-                 │ Influence   │
-                 └──────┬──────┘
-                        │
-                 ┌──────▼──────┐
-                 │ INTELLIGENCE│
-                 │ Search      │
-                 └──────┬──────┘
-                        │
-                 ┌──────▼──────┐
-                 │REPRESENTATION│
-                 │Compression │
-                 └─────────────┘
-
-
-==================================================
-
-
-ONE SENTENCE SUMMARY:
-
-An intelligent system is a process that continuously improves its representation of reality, expands reachable futures, and preserves the feedback mechanisms needed to keep that expansion beneficial.
+> **An intelligent system continuously improves its representation of reality, expands the space of controllable futures, and preserves the feedback mechanisms required to keep that expansion beneficial.**
