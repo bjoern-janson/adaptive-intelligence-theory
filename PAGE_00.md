@@ -8,35 +8,35 @@ Intelligence is the expansion of controllable reachability through improved repr
 
 # Adaptive Intelligence Genome
 
-\[
+$$
 \boxed{
 R_t \rightarrow \Omega_t \rightarrow C_t \rightarrow A_t \rightarrow R_{t+1}
 }
-\]
+$$
 
 Where:
 
-\[
+$$
 R = \text{representation quality}
-\]
+$$
 
-\[
+$$
 \Omega = \text{controllable reachability}
-\]
+$$
 
-\[
+$$
 C = \text{correction capacity (reality's causal access)}
-\]
+$$
 
-\[
+$$
 A = \text{adaptation capacity (improvement of generators)}
-\]
+$$
 
 ---
 
 # Core Dynamics
 
-\[
+$$
 \boxed{
 \begin{aligned}
 \frac{dR}{dt} &= f_R(A,C) \\[4pt]
@@ -45,31 +45,31 @@ A = \text{adaptation capacity (improvement of generators)}
 \frac{dA}{dt} &= f_A(C,E)
 \end{aligned}
 }
-\]
+$$
 
 Where:
 
-- \(I\) = interface / computational leverage
-- \(R_e\) = strength of reality coupling
-- \(E\) = evolvability mechanisms
+- $I$ = interface / computational leverage
+- $R_e$ = strength of reality coupling
+- $E$ = evolvability mechanisms
 
 ---
 
 # Stability Constraint
 
-\[
+$$
 \boxed{
 \Delta\Omega_t \le C_t
 }
-\]
+$$
 
-or:
+or
 
-\[
+$$
 \boxed{
 \frac{d\Omega}{dt}\leq \kappa C_t
 }
-\]
+$$
 
 Meaning:
 
@@ -79,55 +79,62 @@ Meaning:
 
 # Derived Quantity
 
-\[
+$$
 \boxed{
 \Gamma_t=\frac{d\Omega/dt}{C_t}
 }
-\]
+$$
 
-Reachability Expansion Ratio:
+**Reachability Expansion Ratio**
 
-- \(\Gamma < 1\): expansion remains within the correction envelope
-- \(\Gamma \approx 1\): approaching the stability boundary
-- \(\Gamma > 1\): reachability grows faster than correction capacity
+- $\Gamma < 1$: Expansion remains within the correction envelope.
+- $\Gamma \approx 1$: Approaching the stability boundary.
+- $\Gamma > 1$: Reachability grows faster than correction capacity.
 
 ---
 
 # Layer Interpretation
 
-## 1. Representation \(R\)
+## 1. Representation ($R$)
 
-Question:
+**Question**
 
 > What structure can the system extract from reality?
 
 Determines:
+
 - visible distinctions
 - compression ability
 - prediction quality
 - possible interventions
 
-Related:
-Representation Elasticity, Adaptive Metric Compiler, Resolution Horizon
+Related frameworks:
+
+- Representation Elasticity
+- Adaptive Metric Compiler
+- Resolution Horizon
 
 ---
 
-## 2. Reachability \(\Omega\)
+## 2. Reachability ($\Omega$)
 
-Question:
+**Question**
 
 > What futures can the system reliably influence?
 
 Not all imaginable futures, but controllable futures under constraints.
 
-Related:
-Causal Mass, Counterfactual Reachability Mass, Interface-Induced Computational Geometry
+Related frameworks:
+
+- Causal Mass
+- Counterfactual Reachability Mass
+- Interface-Induced Computational Geometry
 
 ---
 
-## 3. Correction \(C\)
+## 3. Correction ($C$)
 
-Question:
+**Question**
 
 > Can reality still modify the system's trajectory?
 
@@ -138,55 +145,62 @@ Examples:
 - Markets: prices + failure
 - AI: evaluation + feedback + corrigibility
 
-Related:
-Causal Permeability, Alignment Spine, CGET
+Related frameworks:
+
+- Causal Permeability
+- Alignment Spine
+- CGET
 
 ---
 
-## 4. Adaptation \(A\)
+## 4. Adaptation ($A$)
 
-Question:
+**Question**
 
 > Can the system improve the mechanisms that produce future improvements?
 
 Learning:
-changing the current state
+
+> changing the current state
 
 Adaptation:
-changing the process that generates future states
 
-Related:
-Recursive Adaptive Dynamics, Adaptive Evolutionary Dynamics
+> changing the process that generates future states
+
+Related frameworks:
+
+- Recursive Adaptive Dynamics
+- Adaptive Evolutionary Dynamics
 
 ---
 
 # Failure Modes
 
-## Reachability runaway
+## Reachability Runaway
 
-\[
+$$
 \frac{d\Omega}{dt}>C
-\]
+$$
 
 The system gains influence faster than it gains corrective feedback.
 
 ---
 
-## Representation failure
+## Representation Failure
 
-\[
+$$
 R\downarrow
-\]
+$$
 
 The system optimizes using an inaccurate model.
 
 ---
 
-## Adaptation decoupling
+## Adaptation Decoupling
 
-\[
-A\uparrow,\ C\downarrow
-\]
+$$
+A\uparrow,\quad C\downarrow
+$$
 
 The system improves itself while losing connection to reality.
 
@@ -194,9 +208,9 @@ The system improves itself while losing connection to reality.
 
 ## Stagnation
 
-\[
-C\uparrow,\ A\downarrow
-\]
+$$
+C\uparrow,\quad A\downarrow
+$$
 
 The system remains stable but cannot improve.
 
@@ -210,20 +224,20 @@ The system remains stable but cannot improve.
 
 # Minimal Experimental Program
 
-Test adaptive agents on changing environments with controlled:
+Test adaptive agents in changing environments while independently controlling:
 
-- representation quality \(R\)
-- reachable action space \(\Omega\)
-- feedback fidelity and delay \(C\)
-- self-modification capacity \(A\)
+- representation quality ($R$)
+- reachable action space ($\Omega$)
+- feedback fidelity and delay ($C$)
+- self-modification capacity ($A$)
 
-Primary prediction:
+**Primary prediction**
 
-\[
+$$
 \boxed{
 \text{Sustainable intelligence growth requires }
 \frac{d\Omega}{dt}\leq\kappa C
 }
-\]
+$$
 
-The theory predicts that intelligence growth is not limited by capability alone, but by maintaining the coupling between increasing power and continued correction.
+The theory predicts that intelligence growth is constrained not by capability alone, but by maintaining the coupling between increasing power and continued correction.
