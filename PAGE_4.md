@@ -1,292 +1,312 @@
-ADAPTIVE INTELLIGENCE THEORY
+# Adaptive Intelligence Theory (AIT)
 
-MATHEMATICAL FOUNDATION
+# Mathematical Foundation
 
+Adaptive Intelligence Theory models intelligence as a recursive dynamical system that improves its representations, expands its controllable future space, and preserves the corrective feedback necessary for continued adaptation.
 
-1. SYSTEM STATE
+---
 
-An adaptive intelligence system is represented as:
+# 1. System State
 
-S_t = (E_t, R_t, M_t, A_t)
+An adaptive intelligence system is represented by the state
 
-where:
+$$
+S_t=(E_t,R_t,M_t,A_t)
+$$
 
-E_t = external environment state
+where
 
-R_t = internal representation of reality
+- $E_t$ — external environment state
+- $R_t$ — internal representation of reality
+- $M_t$ — model / search mechanism
+- $A_t$ — available action space
 
-M_t = model / search mechanism
+The system evolves according to
 
-A_t = available action space
+$$
+S_t \rightarrow S_{t+1}.
+$$
 
+---
 
-The system evolves through time:
+# 2. The Adaptive Loop
 
-S_t → S_{t+1}
+The adaptive cycle consists of five stages.
 
+### Observation
 
---------------------------------------------------
+$$
+Y_t=O(E_t)
+$$
 
+### Representation
 
-2. THE ADAPTIVE LOOP
+$$
+R_t=f(Y_t)
+$$
 
+### Prediction
 
-Observation:
+$$
+\hat{E}_{t+1}=M_t(R_t)
+$$
 
-Y_t = O(E_t)
+### Action Selection
 
+$$
+A_t=\pi(R_t,M_t)
+$$
 
-Representation:
+### Environment Transition
 
-R_t = f(Y_t)
+$$
+E_{t+1}=T(E_t,A_t)
+$$
 
+The complete information flow is
 
-Prediction:
+```text
+Environment
+     │
+     ▼
+Observation
+     │
+     ▼
+Representation
+     │
+     ▼
+Model / Search
+     │
+     ▼
+Action
+     │
+     ▼
+Environment
+```
 
-\hat{E}_{t+1} = M(R_t)
+Intelligence is the capacity to improve this loop over time.
 
+---
 
-Action:
+# 3. Possibility Space
 
-A_t = π(R_t, M_t)
+Every system induces a set of reachable future states
 
-
-Environment transition:
-
-E_{t+1} = T(E_t, A_t)
-
-
-Full system:
-
-E_t
-↓
-Y_t
-↓
-R_t
-↓
-M_t
-↓
-A_t
-↓
-E_{t+1}
-
-
---------------------------------------------------
-
-
-3. POSSIBILITY SPACE
-
-
-The reachable future states of a system:
-
-Ω(S_t) = {E_{t+n} | reachable from S_t}
-
-
-Capability expansion:
-
-ΔΩ = Ω(S_{t+1}) - Ω(S_t)
-
-
-A more capable system expands reachable states.
-
-However:
-
-ΔΩ contains both beneficial and harmful futures.
-
-
-Therefore define:
-
-Ω = Ω⁺ ∪ Ω⁻
-
-
-where:
-
-Ω⁺ = beneficial reachable futures
-
-Ω⁻ = harmful reachable futures
-
-
-Alignment objective:
-
-ΔΩ⁺ > ΔΩ⁻
-
-
---------------------------------------------------
-
-
-4. REPRESENTATION QUALITY
-
-
-A representation is useful when it preserves information relevant to future decisions.
-
-
-Representation quality:
-
-Q_R = I(R; E) / C(R)
-
-
-where:
-
-I(R;E) = mutual information between representation and reality
-
-C(R) = representation complexity
-
-
-Goal:
-
-maximize useful information
-while minimizing unnecessary complexity.
-
-
-This creates compression:
-
-Reality → Invariant Structure
-
-
---------------------------------------------------
-
-
-5. RESOLUTION HORIZON
-
-
-Every system has a maximum recoverable structure:
-
-H(S)
-
-
-Defined by:
-
-H(S) = f(I, R, C, O)
-
-
-where:
-
-I = information available
-
-R = representation capacity
-
-C = computational capacity
-
-O = observation quality
-
-
-Beyond H(S):
-
-additional analysis produces uncertainty instead of structure.
-
-
---------------------------------------------------
-
-
-6. CAUSAL MASS
-
-
-The influence of a system on future states.
-
-
-Counterfactual definition:
-
-CM(S) =
-D_KL(P(E_future | S)
-||
-P(E_future | ¬S))
-
-
-where:
-
-S = system exists
-
-¬S = system removed
-
-
-High causal mass means removing the system significantly changes future trajectories.
-
-
---------------------------------------------------
-
-
-7. COUNTERFACTUAL REACHABILITY MASS
-
-
-CRM measures how much reachable future space depends on a system.
-
-
-CRM(S):
-
+$$
+\Omega(S_t)
 =
-|Ω(S) - Ω(¬S)|
+\left\{
+E_{t+n}
+\mid
+E_{t+n}
+\text{ is reachable from }S_t
+\right\}.
+$$
 
+Capability expansion is
 
-A system has high CRM when many futures become inaccessible without it.
+$$
+\Delta\Omega
+=
+\Omega(S_{t+1})
+-
+\Omega(S_t).
+$$
 
+Greater capability expands the reachable future space.
 
---------------------------------------------------
+However,
 
+$$
+\Omega
+=
+\Omega^{+}
+\cup
+\Omega^{-},
+$$
 
-8. ALIGNMENT CONDITION
+where
 
+- $\Omega^{+}$ — beneficial reachable futures
+- $\Omega^{-}$ — harmful reachable futures
 
-Let:
+The alignment objective is therefore
 
-C_t = capability growth
+$$
+\Delta\Omega^{+}
+>
+\Delta\Omega^{-}.
+$$
 
-A_t = alignment / correction capacity
+---
 
+# 4. Representation Quality
 
-Stable expansion requires:
+A representation is valuable when it preserves information relevant for future decisions while remaining compact.
 
+Define representation quality as
 
-A_t ≥ C_t
+$$
+Q_R
+=
+\frac{I(R;E)}{C(R)},
+$$
 
+where
 
-If:
+- $I(R;E)$ — mutual information between representation and reality
+- $C(R)$ — representation complexity
 
-C_t > A_t
+The objective is to
 
+- maximize useful information,
+- minimize unnecessary complexity.
 
-the system enters an unstable region where change exceeds correction.
+This is the principle of invariant-preserving compression.
 
+---
 
---------------------------------------------------
+# 5. Resolution Horizon
 
+Every system possesses a finite limit to recoverable structure.
 
-9. RECURSIVE IMPROVEMENT
+Define the resolution horizon as
 
+$$
+H(S)
+=
+f(I,R,C,O),
+$$
 
-An adaptive system improves its own update function:
+where
 
+- $I$ — available information
+- $R$ — representational capacity
+- $C$ — computational capacity
+- $O$ — observation quality
 
+Beyond the resolution horizon,
+
+additional computation produces increasing uncertainty rather than additional recoverable structure.
+
+---
+
+# 6. Causal Mass
+
+Causal Mass measures the influence of a system on future trajectories.
+
+It is defined counterfactually as
+
+$$
+CM(S)
+=
+D_{KL}
+\!\left(
+P(E_{\text{future}}\mid S)
+\;\middle\|\;
+P(E_{\text{future}}\mid \neg S)
+\right),
+$$
+
+where
+
+- $S$ — the system exists
+- $\neg S$ — the system is removed
+
+High causal mass indicates that removing the system substantially alters future outcomes.
+
+---
+
+# 7. Counterfactual Reachability Mass
+
+Counterfactual Reachability Mass (CRM) measures how much reachable future space depends on a system.
+
+$$
+CRM(S)
+=
+\left|
+\Omega(S)
+-
+\Omega(\neg S)
+\right|.
+$$
+
+A system has high CRM when many future states become unreachable if the system is removed.
+
+---
+
+# 8. Alignment Condition
+
+Let
+
+- $C_t$ — capability growth
+- $A_t$ — alignment (or correction) capacity
+
+Stable capability expansion requires
+
+$$
+A_t
+\ge
+C_t.
+$$
+
+If
+
+$$
+C_t
+>
+A_t,
+$$
+
+the system enters a regime where its ability to change the world exceeds its ability to detect and correct mistakes.
+
+---
+
+# 9. Recursive Improvement
+
+Adaptive systems improve the mechanisms that generate future improvements.
+
+Representation updates follow
+
+$$
 R_{t+1}
 =
-R_t + ΔR(feedback)
+R_t
++
+\Delta R(\text{feedback}).
+$$
 
+The defining characteristic of intelligence is not merely optimization.
 
-The highest form of intelligence is:
+It is the capacity to improve the optimization process itself.
 
-optimizing the process that performs optimization.
+---
 
+# Core Equation
 
---------------------------------------------------
+The complete adaptive system evolves according to
 
-
-CORE EQUATION:
-
-
+$$
 S_{t+1}
 =
-F(S_t, feedback)
+F(S_t,\text{feedback}),
+$$
 
+where the transition function $F$ is itself adaptive.
 
-where:
+Unlike conventional dynamical systems, the update rule is not fixed.
 
-F is not fixed.
+An intelligent system can improve its own transition dynamics while preserving alignment with reality.
 
-The defining property of adaptive intelligence is that the system can improve F itself while maintaining alignment.
+---
 
+# Summary
 
---------------------------------------------------
+Adaptive Intelligence Theory models intelligence as a recursive state-transition system in which
 
+- representations determine what futures become reachable,
+- actions transform the environment,
+- feedback improves future representations,
+- and alignment preserves the corrective mechanisms required for sustained capability growth.
 
-SUMMARY:
-
-Adaptive Intelligence Theory models intelligence as a recursive state transition system where representations determine reachable futures, actions modify reality, and feedback determines whether capability growth remains aligned.
+The defining property of intelligence is therefore not static capability, but the continual improvement of the processes that discover, evaluate, and create future possibilities.
