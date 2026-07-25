@@ -1,197 +1,283 @@
-ADAPTIVE INTELLIGENCE THEORY (AIT)
+# Adaptive Intelligence Theory (AIT)
 
+## Overview
 
-All concepts in AIT describe different aspects of one underlying process:
+Adaptive Intelligence Theory (AIT) is a unified framework for understanding intelligence as an adaptive process rather than a static capability.
 
-A system observes reality, builds representations, expands reachable futures, acts upon the world, receives feedback, and adapts.
+The central premise is that all intelligent systems participate in the same fundamental cycle:
 
---------------------------------------------------
+> **Observe reality → build representations → expand reachable futures → act → receive feedback → adapt.**
 
-1. RECURSIVE ADAPTIVE DYNAMICS (RAD)
+Each component of AIT describes a different aspect of this single underlying process.
 
-The fundamental process of systems improving the way they improve.
+---
 
-A system does not only optimize within a framework;
-it modifies the framework itself.
+# 1. Recursive Adaptive Dynamics (RAD)
 
-Core loop:
+**Purpose**
 
-representation → action → feedback → improved representation
+Describes how systems improve the processes by which they improve.
 
---------------------------------------------------
+A system does not merely optimize within a fixed framework—it modifies the framework itself.
 
-2. CAUSAL PERMEABILITY PRINCIPLE (CPP)
+Core adaptive loop:
 
-Measures how open a system is to being changed by reality.
+```text
+Representation
+      ↓
+   Action
+      ↓
+  Feedback
+      ↓
+Improved Representation
+      ↺
+```
 
-A system with high causal permeability can absorb feedback and update.
+The defining characteristic of intelligence is recursive improvement rather than static optimization.
 
-A system with low causal permeability becomes isolated from corrective information.
+---
 
---------------------------------------------------
+# 2. Causal Permeability Principle (CPP)
 
-3. ALIGNMENT SPINE
+**Purpose**
 
-The structural requirement that capability growth remains coupled to correction capacity.
+Measures how effectively reality can modify a system.
 
-Capability expansion must not outrun:
+A highly permeable system absorbs corrective information and updates accordingly.
 
-- understanding
-- feedback
-- error correction
-- value alignment
+A poorly permeable system becomes increasingly isolated from the environment and resistant to correction.
 
-Condition:
+In short:
 
-alignment capacity ≥ capability growth
+- High permeability → learning
+- Low permeability → drift
 
---------------------------------------------------
+---
 
-4. CAUSAL GENERATIVE EQUILIBRIUM THEORY (CGET)
+# 3. Alignment Spine
 
-A theory of balancing forces that create and constrain future possibilities.
+**Purpose**
 
-Generative forces expand reachable futures.
+Maintains the coupling between increasing capability and increasing correction.
 
-Constraining forces prevent unstable or destructive trajectories.
+Capability must never outpace the mechanisms responsible for detecting and correcting mistakes.
 
-Stable intelligence requires:
+The governing condition is
 
-generation + constraint = sustainable expansion
+$$
+\text{Alignment Capacity}
+\ge
+\text{Capability Growth}.
+$$
 
---------------------------------------------------
+This is the structural backbone of safe recursive improvement.
 
-5. ADAPTIVE METRIC COMPILER (AMC)
+---
 
-A mechanism for dynamically creating better measurements.
+# 4. Causal Generative Equilibrium Theory (CGET)
 
-As systems evolve, old metrics become insufficient.
+**Purpose**
 
-AMC continuously updates:
+Explains how intelligent systems balance expansion and stability.
 
-what is measured,
-how it is measured,
-and what optimization target is used.
+Two complementary forces govern adaptation:
 
---------------------------------------------------
+- **Generative forces** create new possibilities.
+- **Constraining forces** preserve coherence and prevent destructive trajectories.
 
-6. REPRESENTATION ELASTICITY
+Sustained intelligence requires equilibrium between both.
 
-The ability of a system's internal model to change shape when reality provides new information.
+```text
+Generation
+      +
+Constraint
+      ↓
+Sustainable Expansion
+```
 
-Rigid representations preserve old assumptions.
+---
 
-Elastic representations discover new structure.
+# 5. Adaptive Metric Compiler (AMC)
 
---------------------------------------------------
+**Purpose**
 
-7. RESOLUTION HORIZON (RH)
+Explains how intelligent systems improve the metrics they optimize.
 
-The boundary beyond which additional analysis cannot reliably recover more structure.
+As environments change, fixed objectives become obsolete.
 
-Every system has limits determined by:
+The system continually updates:
 
-- available information
-- representation quality
-- computation
-- observation channel
+- what is measured,
+- how it is measured,
+- what constitutes successful optimization.
 
-Beyond the horizon, models become increasingly speculative.
+Optimization therefore evolves alongside understanding.
 
---------------------------------------------------
+---
 
-8. COMPUTATIONAL PHASE BOUNDARY (CPB)
+# 6. Representation Elasticity
 
-The point where improvements in representation, accessibility, or computation produce a qualitative capability transition.
+**Purpose**
 
-Small changes can create large shifts when a system crosses a boundary.
+Measures how readily internal models adapt to new evidence.
 
---------------------------------------------------
+Rigid representations preserve outdated assumptions.
 
-9. INTERFACE-INDUCED COMPUTATIONAL GEOMETRY (IICG)
+Elastic representations reorganize themselves to reflect newly discovered structure.
 
-The principle that tools and interfaces reshape the space of possible computation.
+Higher elasticity generally enables faster adaptation.
 
-An interface does not merely expose capability.
+---
 
-It changes what problems become solvable.
+# 7. Resolution Horizon (RH)
 
---------------------------------------------------
+**Purpose**
 
-10. CAUSAL MASS
+Defines the boundary beyond which reliable inference becomes impossible.
 
-The measurable influence a system has on future states.
+The resolution horizon depends on:
 
-A system has high causal mass when removing it significantly changes future trajectories.
+- available information,
+- representation quality,
+- computational resources,
+- observational fidelity.
 
-Concept:
+Beyond this boundary, additional reasoning produces increasingly speculative conclusions.
 
-difference between:
+---
 
-world with system
+# 8. Computational Phase Boundary (CPB)
 
-and
+**Purpose**
 
-world without system
+Describes qualitative transitions in capability.
 
---------------------------------------------------
+Small improvements in representation, accessibility, or computation can produce disproportionately large increases in what becomes achievable.
 
-11. CAUSAL INFLUENCE
+Crossing a computational phase boundary changes the class of solvable problems rather than merely improving performance.
 
-The directional effect of an entity, action, or representation on future states.
+---
 
-Causal mass measures magnitude.
+# 9. Interface-Induced Computational Geometry (IICG)
 
-Causal influence describes direction and structure.
+**Purpose**
 
---------------------------------------------------
+Explains how interfaces reshape computation itself.
 
-12. COUNTERFACTUAL REACHABILITY MASS (CRM)
+Interfaces do more than expose existing capability.
 
-Measures how much future possibility depends on a specific system existing.
+They redefine which operations become natural, efficient, or even possible.
 
-A system has high CRM when many possible futures become unreachable without it.
+Changing an interface changes the geometry of the underlying search space.
 
---------------------------------------------------
+---
 
-13. CAUSAL VECTOR FIELD
+# 10. Causal Mass
 
-Models influence as a field containing:
+**Purpose**
 
-Generative Mass (+)
+Measures a system's contribution to future outcomes.
 
-forces that create new possibilities
+A system has high causal mass when removing it produces substantial changes in future trajectories.
 
-Constraining Mass (-)
+Conceptually,
 
-forces that reduce instability
+```text
+World with the system
+        −
+World without the system
+```
 
-The trajectory emerges from their interaction.
+quantifies its causal significance.
 
---------------------------------------------------
+---
 
-14. POSSIBILITY SPACE EXPANSION
+# 11. Causal Influence
 
-The central object of AIT.
+**Purpose**
 
-Intelligence increases the reachable future space:
+Describes the direction and structure of causal effects.
 
-ΔΩ > 0
+Whereas **causal mass** measures *how much* a system matters,
 
-But alignment requires:
+**causal influence** describes *how* that influence propagates through future states.
 
-beneficial expansion > harmful expansion
+Magnitude and direction are distinct properties.
 
---------------------------------------------------
+---
 
-15. THE UNIFYING PRINCIPLE
+# 12. Counterfactual Reachability Mass (CRM)
 
-All AIT concepts describe one phenomenon:
+**Purpose**
 
-A system increasing its ability to model, transform, and create reality while maintaining the feedback loops required to remain aligned with beneficial futures.
+Measures how much future possibility depends on a particular system.
 
-The goal is not maximum intelligence.
+A system has high CRM when many desirable futures disappear if that system is removed.
 
-The goal is:
+CRM therefore quantifies dependency across counterfactual worlds.
 
-maximum adaptive capability with preserved correction.
+---
+
+# 13. Causal Vector Field
+
+**Purpose**
+
+Represents adaptation as interacting fields of influence.
+
+Two complementary components determine system trajectories:
+
+- **Generative Mass (+)** — expands future possibilities.
+- **Constraining Mass (−)** — suppresses instability and preserves coherence.
+
+Observed trajectories emerge from the interaction of both fields.
+
+---
+
+# 14. Possibility Space Expansion
+
+**Purpose**
+
+The central object of Adaptive Intelligence Theory.
+
+Intelligence expands the set of reachable futures:
+
+$$
+\Delta\Omega>0
+$$
+
+However, expansion alone is insufficient.
+
+The objective is directional expansion:
+
+$$
+\Delta\Omega_{\text{beneficial}}
+>
+\Delta\Omega_{\text{harmful}}
+$$
+
+Intelligence should enlarge desirable possibilities faster than undesirable ones.
+
+---
+
+# The Unifying Principle
+
+All components of AIT describe different facets of the same adaptive process.
+
+An intelligent system:
+
+1. observes reality,
+2. builds representations,
+3. expands reachable possibilities,
+4. acts upon the environment,
+5. receives corrective feedback,
+6. improves the mechanisms that repeat this cycle.
+
+The objective is not maximum intelligence.
+
+It is
+
+> **maximum adaptive capability while preserving the capacity for continued correction.**
+
+Or, stated more generally:
+
+> **An intelligent system continually expands its ability to shape the future without losing its ability to learn from reality.**
