@@ -145,7 +145,7 @@ $$
                               │
                     ┌─────────▼───────────┐
                     │   REPRESENTATION    │
-                    │   Compression &     │
+                    │   Compression &      │
                     │     Abstraction     │
                     └─────────────────────┘
 ```
